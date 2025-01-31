@@ -175,6 +175,24 @@ p {
   outline-style: dotted;
 }
 
-@media screen {
-  
+@media screen and (max-width: 414px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #a58e4377;
+    flex-direction: column;
+  }
+
+  .birthdayCard {
+    width: 200px;
+    height: 280px;
+    transform: perspective(2000px);
+  }
+  a {
+    margin-top: 5rem;
+  }
+
+
 }
